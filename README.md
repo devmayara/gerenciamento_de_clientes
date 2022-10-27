@@ -14,7 +14,7 @@ Este projeto foi feito para fins de teste prático e tem como objetivo simular u
 
 ## 📖 Demonstração:
 <div>
-    <img height="350" src="" style="max-width:100%;"/>
+    <img height="350" src="https://github.com/devmayara/gerenciamento_de_clientes/blob/main/public/images/Gerenciamento%20de%20Clientes.gif?raw=true" style="max-width:100%;"/>
 </div>
 
 ## Pré-requisitos globais:
@@ -25,7 +25,7 @@ Este projeto foi feito para fins de teste prático e tem como objetivo simular u
 
 ## Instalação:
 `composer install` <br>
-Criar banco de dados. <br>
+Criar banco de dados e configurar arquivo .env <br>
 `php artisan migrate` <br>
 `php artisan db:seed`
 
