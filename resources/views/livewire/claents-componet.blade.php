@@ -37,7 +37,11 @@
                                     @foreach ($claents as $claent)
                                     <tr>
                                         <td>{{ $claent->id }}</td>
-                                        <td>{{ $claent->name }}</td>
+                                        @if(empty($claent->surname))
+                                            <td>{{ $claent->name }}</td>
+                                        @else
+                                            <td>{{ $claent->surname }}</td>
+                                        @endif
                                         <td>{{ $claent->phone }}</td>
                                         <td>{{ $claent->email }}</td>
                                         <td style="text-align: center;">
